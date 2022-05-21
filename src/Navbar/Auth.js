@@ -29,7 +29,7 @@ function Auth() {
               </span>
 
             </Menu.Button>
-            <Menu.Items className={'absolute top-full right-0 w-48 bg-active rounded translate-y-2 p-1'}>
+            <Menu.Items className={'absolute top-full right-0 w-48 bg-active rounded translate-y-2 p-1 z-10'}>
               <Menu.Item>
                 {({ active }) => (
                   <a className={`h-10 flex justify-between items-center px-2 text-sm rounded ${active && 'bg-white bg-opacity-10'}`} href="#" >
